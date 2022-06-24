@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Javascript Calculator</title>
+<head>
+<body>
+<p>Javascript calculator operating on two numbers, first value = 20 and second value = 10.</p> <br>
+
+<p id="addition"></p>
+<p id="subtract"></p>
+<p id="multiply"></p>
+<p id="divid"></p>
+
+<script>
+
+var firstValue = 20;
+var secondValue = 10;
+var add = firstValue + secondValue;
+var sub = firstValue - secondValue;
+var mul = firstValue * secondValue;
+var div = firstValue / secondValue;
+
+document.getElementById("addition").innerHTML = "<b>20 + 10 =</b> " + add;
+document.getElementById("subtract").innerHTML = "<b>20 - 10 =</b> " + sub;
+document.getElementById("multiply").innerHTML = "<b>20 * 10 =</b> " + mul;
+document.getElementById("divid").innerHTML = "<b>20 / 10 =</b> " + div;
+</script>
+
+</body>
+</html>
